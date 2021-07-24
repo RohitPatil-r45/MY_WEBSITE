@@ -104,7 +104,7 @@ const About = () => {
         <div className="download">
           <a
             className="btn-grad"
-            href="./images/ROHIT_PATIL_RESUME.pdf"
+            href="./images/rohit-patil-resume.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
