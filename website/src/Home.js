@@ -1,9 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-// import { GiCricketBat, GiGamepad } from "react-icons/gi";
-// import { FaReact, FaLaptopCode } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-// import photos from "./images/DSC.JPG";
 
 const Home = () => {
   return (
@@ -47,7 +44,7 @@ const Home = () => {
         </div>
         <div className="home-content">
           <div className="home-img">
-            <img src="./images/DSC.JPG" alt="Rohit" className="myimg" />
+            <img src="./images/myphoto.jpeg" alt="Rohit" className="myimg" />
           </div>
           <ul>
             <li>

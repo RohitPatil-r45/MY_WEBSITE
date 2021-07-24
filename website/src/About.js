@@ -104,7 +104,6 @@ const About = () => {
         <div className="download">
           <a
             className="btn-grad"
-            // href="https://drive.google.com/file/d/1mCuoeCXLl7URA0bbwbQHjMiQ4xmvpaDZ/view?usp=sharing"
             href="./images/ROHIT_PATIL_RESUME.pdf"
             download
             target="_blank"
