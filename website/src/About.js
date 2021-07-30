@@ -61,7 +61,7 @@ const About = () => {
           <div className="edu-card1 edu">
             <h1>"Bachelor of Engineering"</h1>
             <p>Saraswati College Of Engineering, Khargar / Mumbai University</p>
-            <h2>72.23%</h2>
+            <h2>77%</h2>
           </div>
           <div className="edu-card2 edu">
             <h1>"12th / HSC"</h1>
@@ -104,7 +104,7 @@ const About = () => {
         <div className="download">
           <a
             className="btn-grad"
-            href="./images/rohit-patil-resume.pdf"
+            href="./images/rohit_patil_resume.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
