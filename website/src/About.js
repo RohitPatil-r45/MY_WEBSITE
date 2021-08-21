@@ -60,7 +60,9 @@ const About = () => {
         <div className="edu-container">
           <div className="edu-card1 edu">
             <h1>"Bachelor of Engineering"</h1>
-            <p>Saraswati College Of Engineering, Khargar / Mumbai University</p>
+            <p>
+              Saraswati College Of Engineering, Kharghar / Mumbai University
+            </p>
             <h2>77%</h2>
           </div>
           <div className="edu-card2 edu">
