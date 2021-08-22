@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Tilt from "react-parallax-tilt";
 // import { games } from "./data";
 import { GiWildfires, GiGamepad } from "react-icons/gi";
 // import clash from "./CR.jpg";
@@ -35,18 +36,22 @@ const Games = () => {
             </div>
           );
         })} */}
-        <div className="game-box">
-          <img src="./images/CR.jpg" alt="Clash Royale" />
-          <h1>Clash Royale</h1>
-          <h3>Game Name : Rohit</h3>
-          <h2>Game Id : #2Q9YUU08</h2>
-        </div>
-        <div className="game-box">
-          <img src="./images/BGMI.png" alt="BGMI" />
-          <h1>BGMI</h1>
-          <h3>Game Name : HIT๛彡OGGY彡</h3>
-          <h2>Game Id : 540130594</h2>
-        </div>
+        <Tilt gyroscope={true}>
+          <div className="game-box">
+            <img src="./images/CR.jpg" alt="Clash Royale" />
+            <h1>Clash Royale</h1>
+            <h3>Game Name : Rohit</h3>
+            <h2>Game Id : #2Q9YUU08</h2>
+          </div>
+        </Tilt>
+        <Tilt gyroscope={true}>
+          <div className="game-box">
+            <img src="./images/BGMI.png" alt="BGMI" />
+            <h1>BGMI</h1>
+            <h3>Game Name : HIT๛彡OGGY彡</h3>
+            <h2>Game Id : 540130594</h2>
+          </div>
+        </Tilt>
       </div>
     </section>
   );
