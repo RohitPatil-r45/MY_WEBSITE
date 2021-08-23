@@ -36,7 +36,7 @@ const Games = () => {
           </div>
         ) : (
           <div className="gyro">
-            <h1>Gyroscope For Mobile</h1>
+            <h1>Gyroscope</h1>
             <button className="toggle-btn" onClick={() => setToggle(!toggle)}>
               <BsToggleOff />
             </button>
