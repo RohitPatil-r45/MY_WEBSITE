@@ -271,6 +271,75 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-random-people-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/random-people.png" alt="Random People" />
+              <h1>Random People</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/random-people"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-markdown-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/markdown.png" alt="Markdown" />
+              <h1>Markdown</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/markdown"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-dark-theme-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/dark-theme.png" alt="Dark Theme" />
+              <h1>Dark Theme</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/dark-theme"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="project-heading">
