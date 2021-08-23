@@ -6,7 +6,7 @@ import { GiWildfires, GiGamepad } from "react-icons/gi";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
 const Games = () => {
-  const [toggle, setToggle] = useState("false");
+  const [toggle, setToggle] = useState("true");
   return (
     <section className="pos">
       <Helmet>
