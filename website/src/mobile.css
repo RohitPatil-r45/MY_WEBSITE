@@ -339,7 +339,11 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-
+  .gyro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .slider {
     width: 100%;
     height: 100%;

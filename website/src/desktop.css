@@ -221,9 +221,7 @@
     height: 72vh;
   }
   .gyro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 
   .toggle-btn {
