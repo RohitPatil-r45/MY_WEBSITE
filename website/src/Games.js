@@ -39,7 +39,7 @@ const Games = () => {
         )}
       </div>
       <div className="games-container">
-        <Tilt gyroscope={toString(toggle)}>
+        <Tilt gyroscope={toggle}>
           <div className="game-box">
             <img src="./images/CR.jpg" alt="Clash Royale" />
             <h1>Clash Royale</h1>
@@ -47,7 +47,7 @@ const Games = () => {
             <h2>Game Id : #2Q9YUU08</h2>
           </div>
         </Tilt>
-        <Tilt gyroscope={toString(toggle)}>
+        <Tilt gyroscope={toggle}>
           <div className="game-box">
             <img src="./images/BGMI.png" alt="BGMI" />
             <h1>BGMI</h1>
