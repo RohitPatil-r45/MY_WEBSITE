@@ -6,7 +6,7 @@ import { GiWildfires, GiGamepad } from "react-icons/gi";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
 const Games = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState("false");
   return (
     <section className="pos">
       <Helmet>
@@ -26,14 +26,14 @@ const Games = () => {
           <div className="gyro">
             <h1>Gyroscope</h1>
             <button className="toggle-btn" onClick={() => setToggle(!toggle)}>
-              <BsToggleOn />
+              <BsToggleOff />
             </button>
           </div>
         ) : (
           <div className="gyro">
             <h1>Gyroscope</h1>
             <button className="toggle-btn" onClick={() => setToggle(!toggle)}>
-              <BsToggleOff />
+              <BsToggleOn />
             </button>
           </div>
         )}
