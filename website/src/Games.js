@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Helmet from "react-helmet";
 import Tilt from "react-parallax-tilt";
 // import { games } from "./data";
 import { GiWildfires, GiGamepad } from "react-icons/gi";
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 // import clash from "./CR.jpg";
 // import bgmi from "./BGMI.png";
 const Games = () => {
@@ -10,6 +11,7 @@ const Games = () => {
   // const rotate = () => {
   //   setRotateContent(!rotateContent);
   // };
+  const [toggle, setToggle] = useState("false");
   return (
     <section className="pos">
       <Helmet>
@@ -24,8 +26,24 @@ const Games = () => {
           <GiWildfires className="wildfires" />
         </h1>
       </div>
-      <div className="games-container">
-        {/* {games.map((game) => {
+      <div className="App">
+        {toggle ? (
+          <div className="gyro">
+            <h1>Gyroscope For Mobile</h1>
+            <button className="toggle-btn" onClick={() => setToggle(!toggle)}>
+              <BsToggleOff />
+            </button>
+          </div>
+        ) : (
+          <div className="gyro">
+            <h1>Gyroscope For Mobile</h1>
+            <button className="toggle-btn" onClick={() => setToggle(!toggle)}>
+              <BsToggleOn />
+            </button>
+          </div>
+        )}
+      </div>
+      {/* {games.map((game) => {
           const { id, name, url, game_name, game_id } = game;
           return (
             <div key={id} className="game-box">
@@ -36,7 +54,9 @@ const Games = () => {
             </div>
           );
         })} */}
-        <Tilt gyroscope={true}>
+
+      <div className="games-container">
+        <Tilt gyroscope={toggle}>
           <div className="game-box">
             <img src="./images/CR.jpg" alt="Clash Royale" />
             <h1>Clash Royale</h1>
@@ -44,7 +64,7 @@ const Games = () => {
             <h2>Game Id : #2Q9YUU08</h2>
           </div>
         </Tilt>
-        <Tilt gyroscope={true}>
+        <Tilt gyroscope={toggle}>
           <div className="game-box">
             <img src="./images/BGMI.png" alt="BGMI" />
             <h1>BGMI</h1>

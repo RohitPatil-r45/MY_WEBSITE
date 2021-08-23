@@ -4,6 +4,7 @@ import "./index.css";
 import "./desktop.css";
 import "./mobile.css";
 import "./mobile400px.css";
+import "./App.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

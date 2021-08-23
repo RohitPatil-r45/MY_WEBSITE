@@ -220,7 +220,21 @@
     padding: 3rem 0;
     height: 72vh;
   }
+  .gyro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .toggle-btn {
+    background: transparent;
+    border: none;
+  }
+
+  .toggle-btn svg {
+    height: 50px;
+    width: 50px;
+  }
   .slider {
     width: 100%;
     background-color: #151f42;
