@@ -340,6 +340,52 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-cart-reducer-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/cart-reducer.png" alt="Cart Reducer" />
+              <h1>Cart Reducer</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/cart%20reducer"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-cart-redux-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/cart-redux.png" alt="Cart Redux" />
+              <h1>Cart Redux</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/cart%20redux"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="project-heading">
