@@ -386,6 +386,29 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-movies-db-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/movies.png" alt="Movies" />
+              <h1>Movies</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/movies"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="project-heading">
