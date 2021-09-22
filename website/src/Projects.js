@@ -409,6 +409,52 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-shop-list-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/shop_list.png" alt="Shop List" />
+              <h1>Shop List (Redux)</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/shop_list"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://reactjs-space-x-api-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/space_x.png" alt="Space X" />
+              <h1>Space X API</h1>
+            </a>
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/React_Projects/tree/main/space_x"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="project-heading">
