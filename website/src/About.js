@@ -35,12 +35,12 @@ const About = () => {
           <div className="card">
             <FaJsSquare className="js-icons" />
             <h1>JavaScript</h1>
-            <h1>80%</h1>
+            <h1>90%</h1>
           </div>
           <div className="card">
             <FaReact className="react-icons" />
             <h1>React JS</h1>
-            <h1>60%</h1>
+            <h1>80%</h1>
           </div>
           <div className="card">
             <FaPython className="python-icons" />
@@ -50,7 +50,7 @@ const About = () => {
           <div className="card">
             <FaGitAlt className="git-icons" />
             <h1>Git and Github</h1>
-            <h1>60%</h1>
+            <h1>70%</h1>
           </div>
         </div>
 

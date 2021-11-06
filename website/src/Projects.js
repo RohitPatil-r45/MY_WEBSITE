@@ -483,6 +483,38 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="project-heading">
+        <h1>Three JS Projects</h1>
+        <div className="underline" />
+      </div>
+      <div className="project-container">
+        <div className="projects">
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://space-website-three-js.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/space-website.png" alt="space" />
+              <h1>Space Website</h1>
+            </a>
+
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/Three-JS/tree/main/space-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
