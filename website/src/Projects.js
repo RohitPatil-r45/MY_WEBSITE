@@ -483,6 +483,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
+      {/* --------******************  THREE JS *********************--------- */}
+
       <div className="project-heading">
         <h1>Three JS Projects</h1>
         <div className="underline" />
@@ -506,6 +509,31 @@ const Projects = () => {
               </span>
               <a
                 href="https://github.com/RohitPatil-r45/Three-JS/tree/main/space-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <a
+              className="project-link"
+              href="https://galaxy-three-js.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./images/galaxy.png" alt="galaxy" />
+              <h1>Galaxy</h1>
+            </a>
+
+            <div className="github">
+              <span>
+                <FaGithub />
+              </span>
+              <a
+                href="https://github.com/RohitPatil-r45/Three-JS/tree/main/galaxy"
                 target="_blank"
                 rel="noreferrer"
               >
