@@ -19,8 +19,8 @@ const Footer = () => {
       </div>
       <div className="footer-text">
         <p>
-          &copy;2021 Rohit Patil. All rights reserved. Built with{" "}
-          <span>React</span>
+          &copy;{new Date().getFullYear()} Rohit Patil. All rights reserved.
+          Built with <span>React</span>
         </p>
       </div>
     </div>
