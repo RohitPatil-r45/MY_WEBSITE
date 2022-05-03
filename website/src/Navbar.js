@@ -23,7 +23,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-header show-nav-header">
-        <img src="./images/nameLogo.png" alt="Super Fission" className="Icon" />
+        {/* <img src="./images/nameLogo.png" alt="Super Fission" className="Icon" /> */}
+        <section className="showcase">
+          <video src="./images/video.mp4" loop autoPlay muted></video>
+          <h1 className="title">ROHIT PATIL</h1>
+        </section>
         <button className="toggle-btn" onClick={toggleLinks}>
           <FaBars className="toggle-icon" />
         </button>
