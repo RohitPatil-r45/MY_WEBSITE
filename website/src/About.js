@@ -8,7 +8,6 @@ import {
   FaPython,
   FaGitAlt,
 } from "react-icons/fa";
-// import resume from "./Rohit_Patil_Resume.pdf";
 const About = () => {
   return (
     <section className="pos">
@@ -25,22 +24,22 @@ const About = () => {
           <div className="card">
             <FaHtml5 className="html-icons" />
             <h1>HTML</h1>
-            <h1>95%</h1>
+            <h1>100%</h1>
           </div>
           <div className="card">
             <FaCss3Alt className="css-icons" />
             <h1>CSS</h1>
-            <h1>90%</h1>
+            <h1>100%</h1>
           </div>
           <div className="card">
             <FaJsSquare className="js-icons" />
             <h1>JavaScript</h1>
-            <h1>90%</h1>
+            <h1>95%</h1>
           </div>
           <div className="card">
             <FaReact className="react-icons" />
             <h1>React JS</h1>
-            <h1>80%</h1>
+            <h1>90%</h1>
           </div>
           <div className="card">
             <FaPython className="python-icons" />
@@ -91,22 +90,22 @@ const About = () => {
           <div className="lang">
             <h2>Hindi :</h2>
             <div className="progress">
-              <span className="progress-bar" style={{ width: "90%" }}></span>
+              <span className="progress-bar" style={{ width: "100%" }}></span>
             </div>
-            <h2>90%</h2>
+            <h2>100%</h2>
           </div>
           <div className="lang">
             <h2>English :</h2>
             <div className="progress">
-              <span className="progress-bar" style={{ width: "85%" }}></span>
+              <span className="progress-bar" style={{ width: "100%" }}></span>
             </div>
-            <h2>85%</h2>
+            <h2>100%</h2>
           </div>
         </div>
         <div className="download">
           <a
             className="btn-grad"
-            href="./images/Rohit_Patil.pdf"
+            href="./images/Rohit_Patil_Resume.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
